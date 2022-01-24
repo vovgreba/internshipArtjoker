@@ -45,7 +45,7 @@ let notMultiplesPair = getNotMultiplesPair(arrayPromoBonus);
 if(notMultiplesPair === 2) {
   getSearchPair(arrayPromoBonus);
 } else {
-  checkPromoBonus1000(arrayPromoBonus);
+  checkPromoBonus(arrayPromoBonus);
 }
 
 function getSearchPair(promo) {
@@ -68,7 +68,7 @@ function getSearchPair(promo) {
   return 0;
 }
 
-function checkPromoBonus1000(promo) {
+function checkPromoBonus(promo) {
   
   for(let i = 0; i < promo.length; i++) {
     
@@ -142,4 +142,4 @@ function checkNumberIsOdd(promo, i,  step) {
   }
   
 }
-let promoCheckItem3 = checkPromoBonus1000(arrayPromoBonus);
+let promoCheck = checkPromoBonus(arrayPromoBonus);
